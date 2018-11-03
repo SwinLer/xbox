@@ -1,5 +1,5 @@
 function showList(o) {
-    hideList("dropdown-content" + o.id);
+    hideList("drop-content" + o.id);
     document.getElementById("dropdown-" + o.id).classList.toggle("show");
 }
  
